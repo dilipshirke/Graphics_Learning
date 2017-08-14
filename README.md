@@ -8,10 +8,10 @@ Dependencies -
 2. GLEW - OpenGL Extention Wrangler Library
 
 Build Intraution -
-gcc -o out_executable source -lGL -lglfw -lGLFW
+gcc -o output source_file.c -lGL -lglfw -lGLFW
 
 To run -
-./out_executable
+./output
 
 Expected output -
 In most of the cases user can expect image to be render on screen.
